@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+body{
+    background-image: linear-gradient(90deg,#fecbc5,#dbfbf1) !important;
+}
+.content{
+    position: relative;
+    height: 100vh;
+}
+.card{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(180deg,#dffffd,#fed4cf) !important;
+    border: none !important;
+    border-radius: 1px !important;    
+    box-shadow: 1px 1px 10px rgba(255, 255, 255,1),
+    1px 1px 10px rgba(255, 255, 255,1),
+    inset -1px -1px 5px rgba(255, 255, 255,1),
+    inset -1px -1px 10px rgba(255, 255, 255,1) !important;
+}
+.img{
+    width: 500px;
+}
+.radio-grp{
+    margin-left: 20px;
+}
+.title{
+    color: #5b5b5b !important;
+    font-family: 'Lilita One', cursive;
+
+    /* font-style: 'Roboto',sans-serif !important; */
+    letter-spacing: 2px;
+}
+.title-text{
+    color: #515151 !important;
+    font-style: 'Montserrat',sans-serif !important;
+    letter-spacing: 1px;
+    opacity: .8;
+}
+.price{
+    color: #4b4b4b;
+    font-family: 'Lilita One', cursive;
+}
+button{
+    width: 60%;
+    background-color: #fff !important;
+    border: none !important;
+    color: #636363 !important;
+    font-family: 'Lilita One', cursive !important;
+    letter-spacing: 1px;
+    padding: 10px !important;
+    border-radius: 1px !important;
+}
+button:focus{
+    box-shadow: 1px 1px 10px rgba(255, 255, 255,1),
+    1px 1px 10px rgba(255, 255, 255,1),
+    inset -1px -1px 5px rgba(255, 255, 255,1),
+    inset -1px -1px 10px rgba(255, 255, 255,1) !important;
+}
+label{
+    border: none !important;
+    color: #636363 !important;
+    border-radius: 1px !important;
+    margin-top: -10px !important;
+    background-color: #fff !important;
+    box-shadow: 1px 1px 10px rgb(148, 147, 147),
+    1px 1px 10px rgba(255, 255, 255,1),
+    inset -1px -1px 5px rgba(255, 255, 255,1),
+    inset -1px -1px 10px rgba(255, 255, 255,1) !important;
+    outline: none !important; 
+}
+.btn1{
+    background-color: #fff !important;
+    
+}
+.btn2{
+    background-color: #fff !important;
+}
+.btn1:focus,.btn2:focus{
+    background-color: #fff !important;
+    outline: none !important; 
+    box-shadow: 1px 1px 10px rgba(255, 255, 255,1),
+    1px 1px 10px rgba(255, 255, 255,1),
+    inset -1px -1px 5px rgba(255, 255, 255,1),
+    inset -1px -1px 10px rgba(255, 255, 255,1) !important;
+}
+
+
+@media screen and (min-width:320px) and (max-width:425px){
+    .card{
+        width: 80%;
+    }
+}
+@media screen and (min-width:425px) and (max-width:525px){
+    .card{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:525px) and (max-width:625px){
+    .card{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:625px) and (max-width:850px){
+    .card{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:850px) and (max-width:1024px){
+    .card{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .card{
+        width: 30%;
+    }
+}
